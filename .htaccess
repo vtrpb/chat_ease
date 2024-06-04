@@ -1,0 +1,32 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php71-script .php
+suPHP_ConfigPath /home/truckzone1/
+##### LOCAWEB - NAO REMOVER #####
+
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ http://www.truckzone.com.br/$1 [R,L]
+
+
+#<IfModule mod_rewrite.c>
+#    RewriteEngine on
+#    RewriteRule    ^(\.well-known/.*)$ $1 [L]
+#    RewriteRule    ^$    webroot/    [L]
+#    RewriteRule    (.*) webroot/$1    [L]
+#</IfModule>
+
+#chatgpt
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://www.truckzone.com.br/$1 [R=301,L]
+    RewriteRule ^(\.well-known/.*)$ $1 [L]
+    RewriteRule ^$ webroot/ [L]
+    RewriteRule (.*) webroot/$1 [L]
+</IfModule>

@@ -1,0 +1,59 @@
+Reunião 20/03/2023
+
+  - Colocar string email na tela de login (feito)
+  - Adicionar opção na tela "registra-se" para adicionar sua CNH ( );
+  - No site do Truck Zone colocar botão para o login... (feito)
+  - Remover ícone de "+" de "Adicionar Cliente" (feito)
+  - Fazer um visualização em tabela, mostrando um resumo do anúncio e possibilitando as interação do cliente com o Truck Zone.
+ - Adicionar um filtro no index de Users para filtrar conforme os perfil de cada usuário;
+ - Permitir que apenas o Admin e Editor visualize o cadastro de usuários;
+ - No "Edit" "Users" adicionar o slider "CPF/CNPJ", baixar a campo de atualizar senha;
+ - Traduzir as mensagens de todos os controlers;
+ - Ativar a opção de "Ativar/Inativar" usuário no editar do USers...
+- Permitir apenas que o ADMIN delete usuários;
+- Adiconar um datatable para buscar no Users/Index
+- Fazer um assistente com 3 passos para conclusão do anúncio
+ - Vincular documentos pessoas na parte de cadastro de clientes;
+ - Vincular documentos de veículos na parte de cadastro de veículos;
+ - Passo a passo do anúncio
+	12.1 - Adicionar dados do veículo e vincular documento do mesmo;
+	12.2 - Subir imagens do veículos;
+	12.3 -Se for conta PJ finaliza de acordo com a quantidade de lincencas do plano;
+		 - Se for PF escolher o PLANO CONTRATADO
+		 - Se for conta PF vai pra tela de pagamento para liberar anuncio, se nao quiser pagar na hora paga depois... ficando pendente...
+ - Adicionar submenu em "Anuncios" para filtrar os mesmos conforme status
+ - Permitir que o usuário "inative" o úncio dele... não sendo mais exibido na busca...
+
+ <<<<<<<<<<<Verificar campos  >>>>>>>>>>>>>>>
+
+Detalhes Técnicos
+    País
+        Brasil
+    Cidade / Estado
+        Bom Princípio, Rio Grande do Sul
+    Condição
+        Usado
+    Tipo de Operação
+        Venda
+    Envio
+        A Combinar
+    Marca
+        Ford
+    Modelo
+        Cargo
+    Versão
+        2429
+    Tipo de Caminhão
+        Truck
+    Combustível
+        Diesel
+    Câmbio
+        Manual
+    Direção
+        Hidráulica 
+    Capacidade de Carga
+        Entre 10 e 30 tn
+    Ano de fabricação
+        2013
+    Ano do Modelo
+        2014

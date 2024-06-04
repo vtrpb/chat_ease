@@ -1,0 +1,3 @@
+ChatGPT
+
+Tenho um aplicação CakePhp 3.6x na qual tenho uma tabela "ads" para anúncios e outra "ad_images" para armazenar imagens desses anúncio, usei o comando "cake bake all" para que todos os cruds fossem gerados, estou usando o ADMLTE como modelos para minhas views... Dito isto, estou tentando usar o Dropzone.js para que o usuário da minha aplicação faca uplods das fotos, apos salvar o anuncio, escreva o codigo da view e controller para essa acao

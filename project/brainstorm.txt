@@ -1,0 +1,73 @@
+Seu Caminhao
+
+Tipo de usuario (admin,editor,validador,representante, lojista,autonomo)
+
+represante (filtrar os anuncios criados a partir do link dele, e exibir de acordo com o status do anuncio...)
+
+validador - visualiza apenas anuncios pendentes, podendo negalos ou nao
+
+
+status do anuncio (em analise, expirado, ativo, reprovado)
+expepira em ()
+
+anuncio (registrar a quantidade de vizualicao do anuncio)
+
+dados anuncio 
+ Descricao
+ fotos (minimo 3, max 15)
+
+representante - o representante ficara com um percentual da assinatura do lojista ou autonomo durante a vigencia do plano pagamento;
+
+
+Lojista (soh PJ) (Caminhoes, Onibus, Vans) - (os anuncios do lojistas nao expiracao enquanto a assinatura estiver valida)
+
+Dados do lojista
+email
+telefone de contato
+telefone comercial (utilizado para redirecionar para o whatsapp do lojista)
+razao social 
+cnpj
+* exigir upload da CNH de um dos socios da empresa 
+
+- ao efetuar o cadastro do lojista o mesmo ficara sob analise ate que um administrador libere.
+
+
+
+
+
+caminhao - estado,marca, modelo, tracao (4x2, 6x2, 6x4, 8x2, 8x4), transmissao (automatico, manual), implemento(bau,carroceria aberta, cacamba, tanque, outros)
+
+onibus - tipo de onibus(microonibus),tipo de carroceria(urbana, rodoviaria), subsegmento rodoviario(leito, semi-leito, convencional, executivo, leito-cama), tracao(4x2, 6x2, 8x2), banheiro (SIM OU NAO)
+
+van - tipo de van(chassi, forgao, passageiro), para passageiro colocar quantidade de assentos (usuario digitar)
+
+Plano ate 15 veiculos (Master) - Plano LOJISTA (VERIFICAR APENAS SE TA PAGO)
+Plano ate 50 veiculos (Premium) - Plano LOJISTA (VERIFICAR APENAS SE TA PAGO)
+
+Na buscar por veiculos os cadastrados por cliente premium terao prioridade na exibicao
+
+
+
+
++ Cadatros de 
+
+
+Individual (os anuncios deverao expirar ao final do prazo)
+
+Individual (PJ ou PF)
+
+Validacao PF (enviar documento do veiculo, foto da CNH)
+
+* A CNH deve ser do proprietorio do veiculo, no caso de veiculo em nome de PJ copia do documento de um dos socios. 
+
+Venda unica por boleto ou cartao de credito, atraves dos seguintes planos:
+
+30 dias (120 reias) 
+60 dias (200 reias)
+90 dias (280 reais)
+
+(*) adicionar um botão para informar que o pagamento depois
+
+Notificar o usuario via email assim que seu status de validacao no site for alterado
+
+Reuniao 20/03/2023

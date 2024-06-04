@@ -1,0 +1,2 @@
+msgid "You are not authorized to access that location."
+msgstr "Você não está autorizado a acessar este local."
