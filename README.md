@@ -1,3 +1,3 @@
-# Truck Zone
+# Chat Ease
 
-Gestor de anúncios de pesados
+Assistente Whatsapp automatizado para empresas.
